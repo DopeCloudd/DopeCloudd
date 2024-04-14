@@ -1,4 +1,4 @@
-![DALL·E-2024-04-14-18 26](https://github.com/DopeCloudd/DopeCloudd/assets/89657124/dd0597fa-f6d3-44c7-a182-d2c81180ec9a)
+![](https://github.com/DopeCloudd/DopeCloudd/assets/89657124/01355311-261a-40b6-b070-7bfd54c8e733)
 
 ### Hi there 👋
 
