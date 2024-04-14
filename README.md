@@ -9,6 +9,10 @@
 - 😄 Pronouns: <strong>He/Him</strong>
 - ⚡ Fun fact: I love playing <strong>video games.</strong>
 
+
+## ⚙️ Tech stack:
+C C++ CSS3 HTML5 Markdown JavaScript Python TypeScript Netlify Render Vercel Bootstrap DaisyUI Express.js MUI Next JS NodeJS NPM React Redux React Router TailwindCSS Vite MongoDB Postman
+
 <!--
 **DopeCloudd/DopeCloudd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
