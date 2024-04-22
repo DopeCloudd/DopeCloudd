@@ -2,7 +2,7 @@
 
 ## 👋 About me:
 - 🔭 I’m currently working on improve <strong>my full-stack skills.</strong>
-- 🌱 I’m currently learning <strong>React Native & NextJS</strong>
+- 🌱 I’m currently learning <strong>Swift & NextJS</strong>
 - 👯 I’m looking to collaborate on <strong>open-source projects.</strong>
 - 💬 Ask me about <strong>anything.</strong> I am always happy to learn more.
 - 📫 How to reach me: <a href="https://valentin-lerouge.fr/">valentin-lerouge.fr</a>
