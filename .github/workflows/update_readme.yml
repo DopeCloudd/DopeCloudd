@@ -1,0 +1,35 @@
+name: Update README
+
+on:
+  schedule:
+    # Planification à 01h00 chaque jour
+    - cron: "0 1 * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update README
+        run: npx ts-node update_readme.ts
+
+      - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Utilisation de ton token GitHub
+        run: |
+          git config --local user.name "DopeCloudd"
+          git config --local user.email "cloudd2vi@gmail.com"
+          git add README.md
+          git commit -m "Update README"
+          git push
