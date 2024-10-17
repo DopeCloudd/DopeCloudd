@@ -26,7 +26,7 @@ jobs:
 
       - name: Commit changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Utilisation de ton token GitHub
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} # Utilisation de ton token GitHub
         run: |
           git config --local user.name "DopeCloudd"
           git config --local user.email "cloudd2vi@gmail.com"
