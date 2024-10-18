@@ -1,6 +1,7 @@
 ![](https://github.com/DopeCloudd/DopeCloudd/assets/89657124/01355311-261a-40b6-b070-7bfd54c8e733)
 
 ## 👋 About me:
+
 - 🔭 I’m currently working on improve <strong>my full-stack skills.</strong>
 - 🌱 I’m currently learning <strong>NextJS</strong>
 - 👯 I’m looking to collaborate on <strong>open-source projects.</strong>
@@ -9,8 +10,8 @@
 - 😄 Pronouns: <strong>He/Him</strong>
 - ⚡ Fun fact: I love playing <strong>video games.</strong>
 
-
 ## ⚙️ Tech stack:
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -37,10 +38,8 @@
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
 ## 📊 Stats:
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dopecloudd&show_icons=true&theme=react)
 <br>
 <br>
 Last update: 2024-10-17
-<!--
-**DopeCloudd/DopeCloudd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
