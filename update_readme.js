@@ -8,7 +8,6 @@ function getTodayDate() {
 
 // Fonction pour mettre à jour la dernière ligne du README
 async function updateREADME() {
-  try {
     // Lire le fichier README.md
     const readme = await fs.readFile("./README.md", "utf-8");
 
@@ -20,10 +19,7 @@ async function updateREADME() {
 
     // Rejoindre les lignes et écrire dans le fichier
     await fs.writeFile("./README.md", readmeLines.join("\n"));
-    console.log("README.md updated successfully");
-  } catch (error) {
-    console.error("Error updating README.md:", error);
-  }
+    console.log(readmeLines.join("\n")); // Affiche le contenu complet du README
 }
 
 // Appeler la fonction principale
