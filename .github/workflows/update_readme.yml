@@ -4,7 +4,10 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: "04 4 * * *"
+    - cron: "03 4 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -23,16 +26,11 @@ jobs:
           node update_readme.js > README.md
         env:
           CI: true
-      - name: Show README.md content after update
-        run: cat README.md
-      - name: commit changes
+      - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: DopeCloudd
           author_email: cloudd2vi@gmail.com
-          force: true
-          signoff: false
           message: ":memo: README.md updated by Commibot"
         env:
-          # Utilisation de ton secret personnalisé
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
