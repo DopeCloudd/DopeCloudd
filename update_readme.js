@@ -1,26 +1,29 @@
-const { promises: fs } = require("fs");
+const { promises: fs } = require('fs');
+const readme = require('./readme');
 
-// Fonction pour obtenir la date d'aujourd'hui sous forme de chaîne
+const today = new Date();
+
+function generateNewREADME() {
+  const readmeRow = readme.split('\n');
+
+  // Remplace la dernière ligne par la date actuelle
+  readmeRow[readmeRow.length - 1] = getTodayDate();
+
+  return readmeRow.join('\n');
+}
+
 function getTodayDate() {
-  const today = new Date();
   return `Last update: ${today.toDateString()}`;
 }
 
-// Fonction pour mettre à jour la dernière ligne du README
-async function updateREADME() {
-    // Lire le fichier README.md
-    const readme = await fs.readFile("./README.md", "utf-8");
+const updateREADMEFile = (text) => fs.writeFile('./README.md', text);
 
-    // Diviser le contenu en lignes
-    const readmeLines = readme.split("\n");
-
-    // Modifier la dernière ligne avec la date actuelle
-    readmeLines[readmeLines.length - 1] = getTodayDate();
-
-    // Rejoindre les lignes et écrire dans le fichier
-    await fs.writeFile("./README.md", readmeLines.join("\n"));
-    console.log(readmeLines.join("\n")); // Affiche le contenu complet du README
+async function main() {
+  const newREADME = generateNewREADME();
+  console.log(newREADME);
+  await updateREADMEFile(newREADME);
 }
 
-// Appeler la fonction principale
-updateREADME();
+main().catch((error) => {
+  console.error("Error updating README.md:", error);
+});
