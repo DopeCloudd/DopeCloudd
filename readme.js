@@ -42,5 +42,4 @@ module.exports = `![](https://github.com/DopeCloudd/DopeCloudd/assets/89657124/0
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dopecloudd&show_icons=true&theme=react)
 <br>
 <br>
-Last update: 2024-10-17
-`;
+Last update: 2024-10-17`;
