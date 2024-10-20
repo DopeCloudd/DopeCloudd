@@ -28,7 +28,7 @@ jobs:
         with:
           author_name: DopeCloudd
           author_email: cloudd2vi@gmail.com
-          force: false
+          force: true
           signoff: false
           message: ":memo: README.md updated by Commibot"
         env:
