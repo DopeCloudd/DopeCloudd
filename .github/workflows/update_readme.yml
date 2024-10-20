@@ -23,6 +23,8 @@ jobs:
           node update_readme.js > README.md
         env:
           CI: true
+      - name: Show README.md content after update
+        run: cat README.md
       - name: commit changes
         uses: EndBug/add-and-commit@v4
         with:
