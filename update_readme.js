@@ -24,6 +24,4 @@ async function main() {
   await updateREADMEFile(newREADME);
 }
 
-main().catch((error) => {
-  console.error("Error updating README.md:", error);
-});
+main()
