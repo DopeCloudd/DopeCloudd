@@ -2,13 +2,12 @@
 
 ## 👋 About me:
 
-- 🔭 I’m currently working on improve <strong>my full-stack skills.</strong>
-- 🌱 I’m currently learning <strong>NextJS</strong>
+- 🔭 I’m currently working on improve <strong>my LLM skills.</strong>
 - 👯 I’m looking to collaborate on <strong>open-source projects.</strong>
 - 💬 Ask me about <strong>anything.</strong> I am always happy to learn more.
 - 📫 How to reach me: <a href="https://valentin-lerouge.fr/">valentin-lerouge.fr</a>
 - 😄 Pronouns: <strong>He/Him</strong>
-- ⚡ Fun fact: I love playing <strong>video games.</strong>
+- ⚡ Fun fact: I love playing <strong>video games and cars.</strong>
 
 ## ⚙️ Tech stack:
 
